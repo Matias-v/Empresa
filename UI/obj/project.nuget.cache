@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SYke2mMWaEvEfgVQaXWpy1fvo2E19vYYNGgE95jcLIh7eFO0fCnmBNI9tesTIFamxtjMMuKY4UkJc+kJkeLEfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mati\\source\\repos\\TrabajoObligatorioII\\UI\\UI.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mati\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Mati\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
