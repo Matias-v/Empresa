@@ -8,7 +8,7 @@
         consulta &= "tipo_articulo = '" & tipo_art & "' "
         consulta &= "where codigo =" & codigo.ToString
 
-        Return ejecutar.tryComando(consulta)
+        Return ejecutar.consultaEjecutar(consulta)
     End Function
 
     Public Function updatePersona(cedula As Integer, pri_nom As String, seg_nom As String, pri_ape As String, seg_ape As String, telf As Integer, direccion As String)
@@ -21,7 +21,7 @@
         consulta &= "direccion = '" & direccion & "'"
         consulta &= "where cedula= " & cedula.ToString
 
-        Return ejecutar.tryComando(consulta)
+        Return ejecutar.consultaEjecutar(consulta)
     End Function
 
     Public Function updateEmpleado(id_empleado As Integer, id_persona As Integer, id_tipo As Integer, sueldo As Integer)
@@ -31,19 +31,19 @@
         consulta &= "sueldoMens =" & sueldo.ToString & " "
         consulta &= "where id_empleado =" & id_empleado.ToString & ";"
 
-        Return ejecutar.tryComando(consulta)
+        Return ejecutar.consultaEjecutar(consulta)
     End Function
 
     Public Function updateCliente(id_cliente As Integer, id_persona As Integer)
         Dim consulta As String = "update cliente set id_persona=" & id_persona & " where id_cliente = " & id_cliente & ";" 'update cliente set id_persona=6 where id_cliente=7;
 
-        Return ejecutar.tryComando(consulta)
+        Return ejecutar.consultaEjecutar(consulta)
     End Function
 
     Public Function updateTipos(tipo As String, tabla As String, condicion As Integer)
         'TipoArticulo y TipoEmpleado'
         Dim consulta As String = "UPDATE " & tabla & " SET tipo = '" & tipo & "' WHERE id_" & tabla & "= " & condicion & ";"
 
-        Return ejecutar.tryComando(consulta)
+        Return ejecutar.consultaEjecutar(consulta)
     End Function
 End Class

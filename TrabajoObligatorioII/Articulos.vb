@@ -11,10 +11,11 @@
 
     End Sub
     Private Sub btn_salir_Click(sender As Object, e As EventArgs) Handles btn_salir.Click
-        Me.Close()
+        Application.Exit()
+
     End Sub
 
-    Private Sub btn_volver_Click(sender As Object, e As EventArgs) Handles btn_volver.Click
+    Private Sub btn_volver_Click(sender As Object, e As EventArgs)
         Me.Hide()
     End Sub
 
@@ -46,5 +47,25 @@
         End Try
 
 
+    End Sub
+
+    Private Sub btn_clientes_Click(sender As Object, e As EventArgs) Handles btn_clientes.Click
+        Me.Hide()
+        Clientes.Show()
+    End Sub
+
+    Private Sub btn_personas_Click(sender As Object, e As EventArgs) Handles btn_personas.Click
+        Me.Hide()
+        Personas.Show()
+    End Sub
+
+    Private Sub btn_empleados_Click(sender As Object, e As EventArgs) Handles btn_empleados.Click
+        Me.Hide()
+        Empleados.Show()
+    End Sub
+
+    Private Sub btn_tipos_Click(sender As Object, e As EventArgs) Handles btn_tipos.Click
+        Me.Hide()
+        Tipos.Show()
     End Sub
 End Class

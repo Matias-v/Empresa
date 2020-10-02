@@ -11,7 +11,7 @@ Public Class Alta
         consulta = consulta & "'" & fecha_fab & "',"
         consulta = consulta & "'" & tipo_art & "');"
 
-        Return ejecutar.tryComando(consulta)
+        Return ejecutar.consultaEjecutar(consulta)
 
     End Function
 
@@ -26,7 +26,7 @@ Public Class Alta
         consulta = consulta + telf.ToString & ","
         consulta = consulta + "'" & direccion & "');"
 
-        Return ejecutar.tryComando(consulta)
+        Return ejecutar.consultaEjecutar(consulta)
     End Function
 
     Public Function insertEmpleado(id_persona As Integer, id_tipo As Integer, sueldo As Integer)
@@ -36,7 +36,7 @@ Public Class Alta
         consulta = consulta & id_tipo.ToString & ","
         consulta = consulta & sueldo.ToString & ");"
 
-        Return ejecutar.tryComando(consulta)
+        Return ejecutar.consultaEjecutar(consulta)
     End Function
 
     Public Function insertCliente(id_persona As Integer)
@@ -44,7 +44,7 @@ Public Class Alta
         consulta = consulta & " values ("
         consulta = consulta & id_persona.ToString & ");"
 
-        Return ejecutar.tryComando(consulta)
+        Return ejecutar.consultaEjecutar(consulta)
     End Function
 
     Public Function insertTipos(tipo As String, tabla As String)
@@ -53,6 +53,6 @@ Public Class Alta
         consulta = consulta & " values ('"
         consulta = consulta & tipo & "');"
 
-        Return ejecutar.tryComando(consulta)
+        Return ejecutar.consultaEjecutar(consulta)
     End Function
 End Class

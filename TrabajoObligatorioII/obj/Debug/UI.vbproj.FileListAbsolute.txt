@@ -21,3 +21,5 @@ C:\Users\Mati\source\repos\TrabajoObligatorioII\TrabajoObligatorioII\obj\Debug\U
 C:\Users\Mati\source\repos\TrabajoObligatorioII\TrabajoObligatorioII\obj\Debug\TrabajoObligatorioII.exe
 C:\Users\Mati\source\repos\TrabajoObligatorioII\TrabajoObligatorioII\obj\Debug\TrabajoObligatorioII.xml
 C:\Users\Mati\source\repos\TrabajoObligatorioII\TrabajoObligatorioII\obj\Debug\TrabajoObligatorioII.pdb
+C:\Users\Mati\source\repos\TrabajoObligatorioII\TrabajoObligatorioII\bin\Debug\Logic.dll.config
+C:\Users\Mati\source\repos\TrabajoObligatorioII\TrabajoObligatorioII\bin\Debug\DB.dll.config

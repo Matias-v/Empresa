@@ -12,3 +12,6 @@ C:\Users\Mati\source\repos\TrabajoObligatorioII\Logic\obj\Debug\Logic.vbproj.Cop
 C:\Users\Mati\source\repos\TrabajoObligatorioII\Logic\obj\Debug\Logic.dll
 C:\Users\Mati\source\repos\TrabajoObligatorioII\Logic\obj\Debug\Logic.xml
 C:\Users\Mati\source\repos\TrabajoObligatorioII\Logic\obj\Debug\Logic.pdb
+C:\Users\Mati\source\repos\TrabajoObligatorioII\Logic\bin\Debug\Logic.dll.config
+C:\Users\Mati\source\repos\TrabajoObligatorioII\Logic\bin\Debug\DB.dll.config
+C:\Users\Mati\source\repos\TrabajoObligatorioII\Logic\obj\Debug\Logic.Diseño.resources

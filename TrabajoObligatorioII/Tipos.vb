@@ -5,7 +5,7 @@
         gv_Tipos.DataSource = listar.llamarSelect(cbo_tabla.Text)
     End Sub
 
-    Private Sub btn_salir_Click(sender As Object, e As EventArgs) Handles btn_salir.Click
+    Private Sub btn_salir_Click(sender As Object, e As EventArgs)
         Me.Close()
     End Sub
 
@@ -35,7 +35,36 @@
 
     End Sub
 
-    Private Sub btn_volver_Click(sender As Object, e As EventArgs) Handles btn_volver.Click
+    Private Sub btn_volver_Click(sender As Object, e As EventArgs)
         Me.Hide()
+    End Sub
+
+    Private Sub btn_personas_Click(sender As Object, e As EventArgs) Handles btn_personas.Click
+        Me.Hide()
+        Personas.Show()
+
+    End Sub
+
+    Private Sub btn_empleados_Click(sender As Object, e As EventArgs) Handles btn_empleados.Click
+        Me.Hide()
+        Empleados.Show()
+
+    End Sub
+
+    Private Sub btn_clientes_Click(sender As Object, e As EventArgs) Handles btn_clientes.Click
+        Me.Hide()
+        Clientes.Show()
+
+    End Sub
+
+    Private Sub btn_articulos_Click(sender As Object, e As EventArgs) Handles btn_articulos.Click
+        Me.Hide()
+        Articulos.Show()
+
+    End Sub
+
+    Private Sub btn_salir_Click_1(sender As Object, e As EventArgs) Handles btn_salir.Click
+        Application.Exit()
+
     End Sub
 End Class
